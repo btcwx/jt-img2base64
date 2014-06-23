@@ -1,0 +1,41 @@
+{
+  "name": "jt-template",
+  "version": "0.0.1",
+  "description": "jt template processor",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "through2": "~0.4.1"
+  },
+  "scripts": {
+    "test": "make"
+  },
+  "keywords": [
+    "template",
+    "jt",
+    "jt-template"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "blanket": "*",
+    "rewire": "*",
+    "jt-cli": "*"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "jt-template/lib"
+    }
+  },
+  "author": {
+    "name": "wyicwx",
+    "email": "wyicwx@gmail.com",
+    "web": "http://weibo.com/simplemaple"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyicwx/jt-template.git"
+  },
+  "license": "MIT"
+}
